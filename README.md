@@ -10,15 +10,15 @@ Angular CDK version 8.2.3.
 
 # Eclipse EGit settings
 
-Pushing to other Repositories ([Push Ref Specifications](https://wiki.eclipse.org/EGit/User_Guide#Push_Ref_Specifications))  
-  
-Add all branches spec  
+## Pushing to other Repositories ([Push Ref Specifications](https://wiki.eclipse.org/EGit/User_Guide#Push_Ref_Specifications))
+
+Add all branches spec:  
 Source Ref: refs/heads/*  
 Destination Ref: refs/heads/*  
-  
-Fetching from other Repositories ([Fetch Ref Specifications](https://wiki.eclipse.org/EGit/User_Guide#Fetch_Ref_Specifications))  
-  
-Add all branches spec  
+
+## Fetching from other Repositories ([Fetch Ref Specifications](https://wiki.eclipse.org/EGit/User_Guide#Fetch_Ref_Specifications))
+
+Add all branches spec:  
 Source Ref: refs/heads/*  
 Destination Ref: refs/remotes/origin/*  
 
@@ -28,3 +28,20 @@ Your Identity ([1.6 Getting Started - First-Time Git Setup](https://git-scm.com/
   
     $ git config --global user.name "mizuki"  
     $ git config --global user.email mizuki@localhost  
+
+# Clone a Git repository and run application
+
+## Clone a Git repository
+
+Host: github.com  
+Repository path: /yvafdevnsk/primeng-dropdown-with-icon  
+Protocol: https  
+  
+Destination: /home/mizuki/workspace/github/primeng-dropdown-with-icon  
+
+## Run application
+
+    $ pwd  
+    /home/mizuki/workspace/github/primeng-dropdown-with-icon  
+    $ npm install  
+    $ npx ng serve --open  
