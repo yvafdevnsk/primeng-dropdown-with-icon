@@ -1,5 +1,7 @@
 # PrimeNG Dropdown component with icon
 
+Display the icon on the PrimeNG Dropdown component and change it dynamically.  
+  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.  
   
 PrimeNG version 8.1.1.  
@@ -19,3 +21,10 @@ Fetching from other Repositories ([Fetch Ref Specifications](https://wiki.eclips
 Add all branches spec  
 Source Ref: refs/heads/*  
 Destination Ref: refs/remotes/origin/*  
+
+# Git user settings
+
+Your Identity ([1.6 Getting Started - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup))  
+  
+    $ git config --global user.name "mizuki"  
+    $ git config --global user.email mizuki@localhost  
